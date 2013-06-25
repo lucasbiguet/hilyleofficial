@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wailing Trees - Site Officiel</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<nav class="navbar navbar-fixed-top">		
+		<div class="navbar-inner">
+			<div class="container">
+				<%= link_to "Wailing Trees", root_path, :class => "brand" %>
+				<ul class="nav nav-pills pull-right">
+					<li <%= request.fullpath == root_path ? "class=active" : "" %>>
+						<%= link_to "Accueil", root_path %>
+					</li>				
+					<li <%= request.fullpath == pro_path ? "class=active" : "" %>>
+						<%= link_to "Espace Pro", pro_path %>
+					</li>
+					<li <%= request.fullpath == contact_path ? "class=active" : "" %>>
+						<%= link_to "Contact", contact_path %>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<header></header>
+
+	<section class="container">
+		<%= image_tag "logo.jpg", :class => "logo" %>
+		<%= yield %>
+	</section>
+	<footer>Wailing Trees copyright</footer>
+</body>
+</html>

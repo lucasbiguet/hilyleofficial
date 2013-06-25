@@ -1,0 +1,46 @@
+body {
+	padding-top: 40px;
+}
+
+nav {
+
+}
+
+header {
+	height: 600px;
+	background-color: black; 
+	background: url(background.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	background-position: 0 -400px;
+	text-align: center;
+	margin-bottom: 20px;	
+}
+
+.logo {
+		position: absolute;
+		bottom: 160px;
+		margin-left: 500px;
+	}
+
+footer {
+	background-color: #EED484;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: #34231D;
+}
+
+.row-fluid section {
+	background-color: #FAEEC8;
+	padding: 20px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.socialbar {
+	
+}
+
