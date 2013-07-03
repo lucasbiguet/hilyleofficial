@@ -11,6 +11,11 @@ body {
   	background-position: 0 0;
 }
 
+#top {
+	position: absolute;
+	top: 0px;
+}
+
 nav {
 
 }
@@ -50,6 +55,7 @@ footer {
 }
 
 .video iframe{
+	border: 9px solid white;
 }
 
 h2 {
