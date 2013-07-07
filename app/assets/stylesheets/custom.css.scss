@@ -54,8 +54,10 @@ footer {
 	margin-bottom: 200px;
 }
 
-.video iframe{
-	border: 9px solid white;
+.video, .music {
+	iframe{
+		border: 9px solid white;
+	}
 }
 
 h2 {
