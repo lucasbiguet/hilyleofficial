@@ -1,3 +1,3 @@
-== Wailing Trees website
+== Hilyle website
 
-Simple static website made for the band Wailing Trees
+Simple static website made for the Hilyle (a reggae songwriter/singer)
