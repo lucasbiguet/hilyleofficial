@@ -1,4 +1,5 @@
 == Hilyle website
 
 Simple static website made for the Hilyle (a reggae songwriter/singer)
-The wesite is based on the one I made for the Wailing Trees
+
+The website is based on the one I made for the Wailing Trees
